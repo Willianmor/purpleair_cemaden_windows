@@ -1,0 +1,19 @@
+create table cemaden(
+	id serial,
+	label varchar(30),
+	lat double precision,
+	lon double precision,
+	PM2_5Value double precision,
+	temp_f double precision,
+	humidity double precision,
+	pressure double precision,
+	LastSeen bigint,
+	LastUpdateCheck bigint,
+	Type varchar(40),
+
+	
+	
+
+	
+
+)
